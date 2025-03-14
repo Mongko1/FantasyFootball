@@ -1,0 +1,99 @@
+.squad-selection-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .squad-selection-header {
+    margin-bottom: 20px;
+  }
+  
+  .squad-selection-header h1 {
+    color: #38003c;
+    margin-bottom: 5px;
+  }
+  
+  .squad-selection-header p {
+    color: #6c6c6c;
+    margin-top: 0;
+  }
+  
+  .view-toggle {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    width: fit-content;
+  }
+  
+  .view-toggle button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  .view-toggle button.active {
+    background-color: #00ff87;
+    color: #38003c;
+  }
+  
+  .main-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .squad-board-container {
+    flex: 2;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .auto-pick-button, .save-squad-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auto-pick-button {
+    background-color: #38003c;
+    color: white;
+  }
+  
+  .save-squad-button {
+    background-color: #00ff87;
+    color: #38003c;
+  }
+  
+  .auto-pick-button:hover {
+    background-color: #2d0030;
+  }
+  
+  .save-squad-button:hover {
+    background-color: #00e87a;
+  }
+  
+  .auto-pick-button:disabled, .save-squad-button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    background-color: #ffecec;
+    color: #d63031;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border-left: 4px solid #d63031;
+  }
+  

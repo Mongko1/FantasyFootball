@@ -1,0 +1,60 @@
+.squad-board {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .pitch-view {
+    position: relative;
+  }
+  
+  .field {
+    background: linear-gradient(to bottom, #1bb65a, #0b9c42);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+  }
+  
+  .position-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    flex: 1;
+  }
+  
+  .list-view {
+    padding: 20px;
+  }
+  
+  .squad-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .squad-list-table th, .squad-list-table td {
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .squad-list-table th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+    color: #38003c;
+  }
+  
+  .remove-player-button {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .remove-player-button:hover {
+    background-color: #ff1a1a;
+  }

@@ -1,0 +1,45 @@
+.squad-header {
+    background: linear-gradient(90deg, #00ff87, #60efff);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #38003c;
+  }
+  
+  .gameweek h2 {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+  }
+  
+  .deadline {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .selection-info {
+    display: flex;
+    gap: 20px;
+}
+
+.players-selected, .budget-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.count-badge, .budget-badge {
+  background-color: #38003c;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.budget-badge {
+  background-color: #00ff87;
+  color: #38003c;
+}

@@ -1,0 +1,80 @@
+.position-slot {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(0, 200, 0, 0.9);
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .position-slot:hover {
+    transform: translateY(-5px);
+  }
+  
+  .empty-slot {
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .position-icon {
+    margin-bottom: 5px;
+  }
+  
+  .position-name {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .filled-slot {
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .filled-slot .player-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #38003c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .filled-slot .player-name {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .filled-slot .player-team, 
+  .filled-slot .player-next-fixture, 
+  .filled-slot .player-cost {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
